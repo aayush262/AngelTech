@@ -26,7 +26,7 @@ export class Contact extends React.Component {
     }
     handleSubmit = e => {
         e.preventDefault();
-        this.setState((prevState)=>{
+        this.setState(()=>{
             return{
                 isSubmitting:true
             }
